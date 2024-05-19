@@ -77,6 +77,14 @@ return packer.startup(function(use)
 	-- Autoclose
 	use("m4xshen/autoclose.nvim")
 
+	-- Treesitter
+	use({
+		"nvim-treesitter/nvim-treesitter",
+		run = function ()
+			require("nvim-treesitter.install").update({ with_sync = true })
+		end
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
