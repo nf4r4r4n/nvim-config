@@ -38,3 +38,11 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>")
 keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<CR>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
+
+-- C Formatter 42
+local function c_format()
+	local current_file = vim.fn.expand('%:p')
+	local command = ":!python3 -m c_formatter_42 " .. current_file .. "<CR>"
+	return command
+end
+keymap.set("n", "<leader>cf", c_format())
