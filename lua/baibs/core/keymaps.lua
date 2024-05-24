@@ -29,7 +29,6 @@ keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 -- Save & Quit
 keymap.set("n", "<leader>w", ":w<CR>") -- Save
 keymap.set("n", "<leader>q", ":q<CR>") -- Quit
-keymap.set("n", "<leader>qq", ":bufdo q<CR>") -- Quit
 
 -- NvimTree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
