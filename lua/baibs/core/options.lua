@@ -24,6 +24,7 @@ opt.cursorline = true
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
+vim.cmd [[ hi NvimTreeNormal guibg=NONE ctermbg=NONE ]]
 
 -- Backspace 
 opt.backspace = "indent,eol,start"

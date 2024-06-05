@@ -10,6 +10,4 @@ eldritch.setup({
 		comments = { italic = true },
 		keywords = { italic = true },
 	},
-	hide_inactive_statusline = true,
-	dim_inactive = true,
 })
