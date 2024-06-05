@@ -29,8 +29,9 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim")
 
 	-- Colorscheme
-	use("scottmckendry/cyberdream.nvim")
-	
+	-- use("scottmckendry/cyberdream.nvim")
+	use("eldritch-theme/eldritch.nvim")
+
 	-- Transparent background
 	use("xiyaowong/transparent.nvim")
 
