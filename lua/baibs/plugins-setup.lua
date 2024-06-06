@@ -30,7 +30,7 @@ return packer.startup(function(use)
 
 	-- Colorscheme
 	-- use("scottmckendry/cyberdream.nvim")
-	use("eldritch-theme/eldritch.nvim")
+	use("shaunsingh/moonlight.nvim")
 
 	-- Transparent background
 	use("xiyaowong/transparent.nvim")

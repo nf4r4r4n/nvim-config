@@ -4,10 +4,10 @@ if not status then
 end
 
 -- recommended from nvim-tree docs
-vim.g.loaded = 1
+vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
-vim.cmd([[ highlight NvimTreeIndentMarker guifg=#2A7BDE]])
+vim.cmd([[ highlight NvimTreeIndentMarker guifg=#2A7BDE ]])
 
 nvimtree.setup({
 	actions = {
@@ -16,5 +16,5 @@ nvimtree.setup({
 				enable = false
 			}
 		}
-	}
+	},
 })
