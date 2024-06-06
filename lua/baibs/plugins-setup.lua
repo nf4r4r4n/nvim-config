@@ -30,7 +30,8 @@ return packer.startup(function(use)
 
 	-- Colorscheme
 	-- use("scottmckendry/cyberdream.nvim")
-	use("shaunsingh/moonlight.nvim")
+	-- use("shaunsingh/moonlight.nvim")
+	use("rose-pine/neovim")
 
 	-- Transparent background
 	use("xiyaowong/transparent.nvim")
