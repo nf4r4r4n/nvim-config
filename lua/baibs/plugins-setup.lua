@@ -78,6 +78,9 @@ return packer.startup(function(use)
 	-- Autoclose
 	use("m4xshen/autoclose.nvim")
 
+	-- Tag autoclose
+	use("windwp/nvim-ts-autotag")
+
 	-- Treesitter
 	use({
 		"nvim-treesitter/nvim-treesitter",
@@ -85,6 +88,9 @@ return packer.startup(function(use)
 			require("nvim-treesitter.install").update({ with_sync = true })
 		end
 	})
+
+	-- Neoscroll for smooth scroll
+	use("karb94/neoscroll.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()
