@@ -29,8 +29,7 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim")
 
 	-- Colorscheme
-	-- use("rose-pine/neovim")
-	use("catppuccin/nvim")
+	use("Mofiqul/vscode.nvim")
 
 	-- Transparent background
 	use("xiyaowong/transparent.nvim")
