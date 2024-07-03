@@ -35,4 +35,7 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
+-- Folding
+opt.foldmethod = "indent"
+
 opt.iskeyword:append("-")
